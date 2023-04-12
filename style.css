@@ -124,27 +124,24 @@ height:80px ;
 
 /*es 6*/
 
-.ex-6-img{
+.ex-6-img:hover{
     filter: grayscale(100%);
 }
 
 /*es 7*/
-
-@keyframes filters {
-    from {filter: grayscale(100%);}
-    to {filter:drop-shadow(100%) ;}
-}
-
 .ex-6-img{
-    animation-name: filters;
-   animation-duration: 5s;
-   animation-timing-function:ease-in;
+    transition-property: filter;
+    transition-duration: 5s ;
 }
 
-
+.ex-6-img.ex-6-img:hover{
+    filter: drop-shadow(100%);
+    filter: invert(100%);
+    
+}
 /*es 8*/
 
-.ex-8-img{
+.ex-8-img:hover{
     border-radius: 10px;
     filter: drop-shadow(100%);
     filter: invert(100%);
@@ -152,7 +149,7 @@ height:80px ;
 
 /*es 9*/
 
-.ex-9-img{
+.ex-9-img:hover{
     filter: drop-shadow(100%);
     filter: invert(100%);
     width:300px ;
@@ -174,6 +171,13 @@ height:80px ;
 }
 
 /*es 11*/
+@keyframes rotate-back{
+    0%   {rotate: 90deg;}
+  25%  {rotate:180deg;}
+  50%  {rotate: 270deg;;}
+  100% {rotate:360deg;}
+}
+
 
 /*es 12*/
 
