@@ -130,7 +130,25 @@ height:80px ;
 
 /*es 7*/
 
+@keyframes filters {
+    from {filter: grayscale(100%);}
+    to {filter:drop-shadow(100%) ;}
+}
+
+.ex-6-img{
+    animation-name: filters;
+   animation-duration: 5s;
+   animation-timing-function:ease-in;
+}
+
+
 /*es 8*/
+
+.ex-8-img{
+    border-radius: 10px;
+    filter: drop-shadow(100%);
+    filter: invert(100%);
+}
 
 /*es 9*/
 
