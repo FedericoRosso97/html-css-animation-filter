@@ -81,8 +81,9 @@ background-color: red;
 
 /*es 2*/
 
-.ex-2-square:focus {
-   
+.ex-2-square:active {
+   width: 400px;
+   height: 200px;
   }
 /*es 3*/
 
@@ -112,16 +113,18 @@ background-color: red;
 
 /*es 5*/
 .ex-5-square{
-
-    transition: width 5s, height 5s
+transition: 5s;
 }
 
-.ex-5-square:hover{
-width: 80px;
-height:80px ;
+.ex-5-square:hover
+{
+transform: scale(2);
 }
 
-
+.ex-5-squar:active
+{
+transform: scale(.5);
+}
 /*es 6*/
 
 .ex-6-img:hover{
@@ -152,39 +155,38 @@ height:80px ;
 .ex-9-img:hover{
     filter: drop-shadow(100%);
     filter: invert(100%);
-    width:300px ;
+    transform: scale(2);
 }
 
 /*es 10*/
 
 @keyframes rotate{
-    0%   {rotate: 90deg;}
-  25%  {rotate:180deg;}
-  50%  {rotate: 270deg;;}
+
   100% {rotate:360deg;}
 }
 
 .ex-10-icon{
     animation-name: rotate;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
+    animation-direction: reverse;
 }
 
 /*es 11*/
 @keyframes rotate-back{
-    0%   {rotate: 90deg;}
-  25%  {rotate:180deg;}
   50%  {rotate: 270deg;;}
   100% {rotate:0deg;}
 }
 
 .ex-11-icon{
     animation-name: rotate-back;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-timing-function:(cubic-bezier(.96,.04,.99,1.08));
+    animation-timing-function:ease-in;
 
 }
 /*es 12*/
+
+
 
 /*es 13*/
