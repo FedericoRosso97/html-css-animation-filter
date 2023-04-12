@@ -152,6 +152,12 @@ height:80px ;
 
 /*es 9*/
 
+.ex-9-img{
+    filter: drop-shadow(100%);
+    filter: invert(100%);
+    width:300px ;
+}
+
 /*es 10*/
 
 /*es 11*/
