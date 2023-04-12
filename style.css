@@ -108,9 +108,6 @@ background-color: red;
     animation-iteration-count: infinite;
 }
 
-
-
-
 /*es 5*/
 .ex-5-square{
 transition: 5s;
@@ -186,7 +183,29 @@ transform: scale(.5);
 
 }
 /*es 12*/
+:hover{
+   
+}
 
+.ex-12-top-white{
+    transition-property: left;
+    transition-duration: 5s;
+}
+  
 
+.ex-12-button:hover .ex-12-top-white{
+    position: absolute;
+    left: 69%;
+}
+
+.ex-12-bottom-white{
+    transition-property: right;
+    transition-duration: 5s;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    position: absolute;
+    right: 69%;
+}
 
 /*es 13*/
