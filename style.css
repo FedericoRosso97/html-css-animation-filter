@@ -80,3 +80,64 @@ background-color: red;
 }
 
 /*es 2*/
+
+.ex-2-square:focus {
+   
+  }
+/*es 3*/
+
+.ex-3-square{
+    transition-property:border-radius ;
+    transition-duration: 5s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/*es 4*/
+@keyframes invisible {
+    from {background-color: red;}
+    to {background-color:rgba(0, 0, 0, 0.0);}
+  }
+
+  .ex-4-square{
+    animation-name: invisible;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+/*es 5*/
+.ex-5-square{
+
+    transition: width 5s, height 5s
+}
+
+.ex-5-square:hover{
+width: 80px;
+height:80px ;
+}
+
+
+/*es 6*/
+
+.ex-6-img{
+    filter: grayscale(100%);
+}
+
+/*es 7*/
+
+/*es 8*/
+
+/*es 9*/
+
+/*es 10*/
+
+/*es 11*/
+
+/*es 12*/
+
+/*es 13*/
