@@ -175,10 +175,16 @@ height:80px ;
     0%   {rotate: 90deg;}
   25%  {rotate:180deg;}
   50%  {rotate: 270deg;;}
-  100% {rotate:360deg;}
+  100% {rotate:0deg;}
 }
 
+.ex-11-icon{
+    animation-name: rotate-back;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:(cubic-bezier(.96,.04,.99,1.08));
 
+}
 /*es 12*/
 
 /*es 13*/
