@@ -160,6 +160,19 @@ height:80px ;
 
 /*es 10*/
 
+@keyframes rotate{
+    0%   {rotate: 90deg;}
+  25%  {rotate:180deg;}
+  50%  {rotate: 270deg;;}
+  100% {rotate:360deg;}
+}
+
+.ex-10-icon{
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
 /*es 11*/
 
 /*es 12*/
